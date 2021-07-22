@@ -75,7 +75,7 @@
                 <version>${jacoco.version}</version>
                 <configuration>
                     <excludes>
-                        <exclude>**/webservicesserver/*</exclude>
+                        <exclude>webservicesserver.*</exclude>
                     </excludes>
                 </configuration>
                 <executions>

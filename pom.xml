@@ -74,7 +74,12 @@
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${jacoco.version}</version>
                 <configuration>
-                    <exclude>webservicesserver.*</exclude>
+                    <exclude>webservicesserver/NumberToDollars.java</exclude>
+                    <exclude>webservicesserver/NumberToDollarsResponse.java</exclude>
+                    <exclude>webservicesserver/NumberToWords.java</exclude>
+                    <exclude>webservicesserver/NumberToWordsResponse.java</exclude>
+                    <exclude>webservicesserver/ObjectFactory.java</exclude>
+                    <exclude>webservicesserver/package-info.java</exclude>
                 </configuration>
                 <executions>
                     <execution>

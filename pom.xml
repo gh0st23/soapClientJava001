@@ -74,7 +74,9 @@
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${jacoco.version}</version>
                 <configuration>
-                    <exclude>**/webservicesserver/*</exclude>
+                    <excludes>
+                        <exclude>**/webservicesserver/*</exclude>
+                    <excludes>
                 </configuration>
                 <executions>
                     <execution>

@@ -76,7 +76,7 @@
                 <configuration>
                     <excludes>
                         <exclude>**/webservicesserver/*</exclude>
-                    <excludes>
+                    </excludes>
                 </configuration>
                 <executions>
                     <execution>
